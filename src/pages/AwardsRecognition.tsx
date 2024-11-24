@@ -1,7 +1,4 @@
-// src/pages/AwardsRecognition.tsx
-import React from 'react';
-
-const awards: React.FC = () => {
+const AwardsRecognition = () => {
   return (
     <section className="bg-blue-50 py-20 px-6 md:px-16">
       <div className="container mx-auto text-center">
@@ -49,7 +46,7 @@ const awards: React.FC = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default awards;
+export default AwardsRecognition
