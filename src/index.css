@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-  :root {
-    --radius: 0.5rem
-  }
+	:root {
+		--radius: 0.5rem;
+		--primary: #0069aa;
+	}
+}
+
+@layer utilities {
+	.bg-primary {
+		--tw-bg-opacity: 1;
+		background-color: rgba(0, 105, 170, var(--tw-bg-opacity));
+	}
+	.text-primary {
+		--tw-text-opacity: 1;
+		color: rgba(0, 105, 170, var(--tw-text-opacity));
+	}
+	.border-primary {
+		--tw-border-opacity: 1;
+		border-color: rgba(0, 105, 170, var(--tw-border-opacity));
+	}
 }
