@@ -50,9 +50,9 @@ const CorporateSocialResponsibility: React.FC = () => {
                 <p>
                   This CSR Policy encompasses AUTOLINX philosophy for social responsibilities and lays down the guidelines and mechanism for undertaking projects, programs, and activities towards such responsibilities.
                 </p>
-                <Button onClick={handleReadMoreToggle} className="text-blue-600">
+                <Button onClick={handleReadMoreToggle} className="bg-white text-blue-600">
                   {showMore ? 'Read Less' : 'Read More'}
-                </Button>
+                  </Button>
                 {showMore && (
                   <>
                     <h3 className="font-semibold">II. VISION STATEMENT AND OBJECTIVE</h3>
@@ -138,6 +138,7 @@ const CorporateSocialResponsibility: React.FC = () => {
                   </>
                 )}
               </CardContent>
+              
             </Card>
           )}
 
