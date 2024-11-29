@@ -1,55 +1,9 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, CardTitle } from '@/components/ui/card';
-import { cn } from '@/lib/utils'; // Import ShadCN's utility for className conditional joining
-
+import { cn } from '@/lib/utils'; // Import ShadCN's utility for className conditional joining 
+import { services } from '@/lib/constants';
 const Inbound: React.FC = () => {
-  const services = [
-    {
-      title: '3PL Services',
-      description:
-        'Transportation Management: Real-time tracking of all modes of transportation and 24/7/365 coverage provides full visibility to your supply chain.',
-    },
-    {
-      title: 'Supply Chain Optimization',
-      description:
-        'VASCOR optimizes the logistics network for the best cost and utilization, getting you more out of your supply chain spend.',
-    },
-    {
-      title: 'Cost Savings',
-      description:
-        'We identify cost savings by improving your inbound supply chain for the best efficiency and utilization.',
-    },
-    {
-      title: 'Trailer Utilization',
-      description:
-        'VASCOR optimizes every trailer for utilization and the best return on your spend.',
-    },
-    {
-      title: 'Parts Ordering',
-      description:
-        'Inbound parts order management allows VASCOR to manage the inbound supply chain while providing part-level visibility to the plant for exception notification at the time of pickup.',
-    },
-    {
-      title: 'Performance Reporting',
-      description:
-        'Customized KPI reporting provides the right data needed to make decisions for your supply chain.',
-    },
-    {
-      title: 'Dashboard',
-      description:
-        'Web-based customized dashboards provide real-time updates in one location and allow you to make decisions quickly and accurately.',
-    },
-    {
-      title: 'Expedite',
-      description:
-        'Our staff is available 24/7/365 to handle any expedited moves needed.',
-    },
-    {
-      title: 'Freight Bill Payment',
-      description:
-        'You will have peace of mind that you are always paying the correct amount for your shipments.',
-    },
-  ];
+  
 
   return (
     <section className="bg-white py-16 px-6 md:px-16">
