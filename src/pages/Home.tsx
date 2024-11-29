@@ -78,20 +78,18 @@ const Home = () => {
 								<li key={index}>{el}</li>
 							))}
 						</ul>
-					</p><Button type='button' className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
-					<a href ="About-us">About Us</a>
-				</Button>
+					</p>
+					<Button
+						type='button'
+						className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
+						<a href='About-us'>About Us</a>
+					</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
 						src='https://images.pexels.com/photos/28374669/pexels-photo-28374669/free-photo-of-an-aerial-view-of-a-parking-lot-with-cars.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 						alt=''
-						style={{
-							width: '100%', // Full width of the container
-							height: '782px', // Maintain aspect ratio
-							objectFit: 'cover', // Cover the area while maintaining aspect ratio
-							borderRadius: '8px', // Rounded corners for the image
-						  }}
+						className='w-full h-full object-center object-cover '
 					/>
 				</div>
 			</div>
@@ -110,20 +108,17 @@ const Home = () => {
 						can customize the logistics solutions for you because we have our owned asset i.e. Specially designed Rails & Core partner carrier network(Road Transporters) as an extension to our owned asset which enables us to deliver the
 						capacity you need at right place, at the right time & for the right price.
 					</p>
-					<Button type='button' className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
-					Explore Rail Transport
-				</Button>
+					<Button
+						type='button'
+						className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
+						Explore Rail Transport
+					</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
 						src='https://imgs.search.brave.com/YFflr_PhcRPN_NU1HvPRodN2NhQk9ihf-OZkrr_k4CM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/OTQ0MTI1NzQ2NDMt/ZmYxMWIwYTVjMWMz/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjAuMyZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1URjhmR3h2/WjJsemRHbGpjM3hs/Ym53d2ZId3dmSHg4/TUE9PQ.jpeg'
 						alt=''
-						style={{
-							width: '100%', // Full width of the container
-							height: '782px', // Maintain aspect ratio
-							objectFit: 'cover', // Cover the area while maintaining aspect ratio
-							borderRadius: '8px', // Rounded corners for the image
-						  }}
+						className='w-full h-full object-center object-cover'
 					/>
 				</div>
 			</div>
@@ -137,27 +132,24 @@ const Home = () => {
 					<h2 className='text-5xl font-bold mb-4'>Vehicle Distribution Centers</h2>
 					<p className='text-gray-500 text-lg leading-relaxed '>
 						"In addition to our core rail transportation network for finished vehicle distribution, APL Logistics VASCOR Automotive will operate a network of vehicle distribution centres and yards.Sites are strategically located adjacent
-            to the rail terminals. These Centers provide various value-added services, including :
-            <ul className='list-disc list-inside'>
-              {vehicleDistributionCenters.map((el, index) => (
-                <li key={index}> {el} </li>
-              ))}
-            </ul>
+						to the rail terminals. These Centers provide various value-added services, including :
+						<ul className='list-disc list-inside'>
+							{vehicleDistributionCenters.map((el, index) => (
+								<li key={index}> {el} </li>
+							))}
+						</ul>
 					</p>
-					<Button type='button' className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
-					<a href='inbound'>Inbound Logistics</a>
-				</Button>
+					<Button
+						type='button'
+						className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
+						<a href='inbound'>Inbound Logistics</a>
+					</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
 						src='https://imgs.search.brave.com/p1gic0E_QS4yZENmcgoHPUJqJs6nc6NwZ8y0zdbaMlk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOS8w/OC8xNS8xNy81Ni9w/cm9kdWN0aW9uLTQ0/MDg1NzNfNjQwLmpw/Zw'
 						alt=''
-						style={{
-							width: '100%', // Full width of the container
-							height: '782px', // Maintain aspect ratio
-							objectFit: 'cover', // Cover the area while maintaining aspect ratio
-							borderRadius: '8px', // Rounded corners for the image
-						  }}
+						className='w-full h-full object-center object-cover'
 					/>
 				</div>
 			</div>
