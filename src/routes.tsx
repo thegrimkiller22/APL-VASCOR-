@@ -1,4 +1,4 @@
-import { About, AwardsRecognition, ContactUs, CorporateSocialResponsibility, Gallery, Home } from '@/pages';
+import { About, AwardsRecognition, ContactUs, CorporateSocialResponsibility, Gallery, Home,Carrier } from '@/pages';
 import Inbound from './pages/Inbound';
 
 const routes = [
@@ -31,6 +31,11 @@ const routes = [
 		path: '/inbound',
 		element: <Inbound />,
 		name: 'Inbound ',
+	},
+	{
+		path: '/carrier',
+		element: <Carrier />,
+		name: 'Carrier',
 	},
 	{
 		path: '/contact-us',

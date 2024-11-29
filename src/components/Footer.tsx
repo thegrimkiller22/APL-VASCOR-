@@ -46,7 +46,6 @@ const Footer: React.FC = () => {
               <li><a href="/cookie-policy" className="text-gray-600 hover:text-primary transition duration-200">Cookie Policy</a></li>
               <li><a href="/vendor-code-of-conduct" className="text-gray-600 hover:text-primary transition duration-200">Vendor Code of Conduct</a></li>
               <li><a href="/sitemap" className="text-gray-600 hover:text-primary transition duration-200">Sitemap</a></li>
-              <li><a href="/en-espanol" className="text-gray-600 hover:text-primary transition duration-200">En Español</a></li>
               <li><a href="/login" className="text-gray-600 hover:text-primary transition duration-200">Login</a></li>
             </ul>
           </div>
