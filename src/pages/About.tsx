@@ -76,11 +76,11 @@ const About: React.FC = () => {
 					<p className='text-gray-500 text-lg leading-relaxed '>
 
           <ul className="list-inside list-disc space-y-4 text-lg text-gray-700">
-           <li><strong>Thad Bedard</strong> - President, APL Logistics & Chairman - APL Logistics VASCOR Automotive Pvt. Ltd.</li>
-           <li><strong>TOMONORI KONO</strong> - Director, APL Logistics VASCOR Automotive Pvt. Ltd.</li>
-           <li><strong>Umesh Bhanot</strong> - Regional Head - South Asia, APL Logistics</li>
-           <li><strong>Ashish Bhatt</strong> - Managing Director, APL Logistics VASCOR Automotive Pvt. Ltd.</li>
-         </ul>
+            <li><strong>Thad Bedard</strong> - President, APL Logistics & Chairman - APL Logistics VASCOR Automotive Pvt. Ltd.</li>
+            <li><strong>TOMONORI KONO</strong> - Director, APL Logistics VASCOR Automotive Pvt. Ltd.</li>
+            <li><strong>Umesh Bhanot</strong> - Regional Head - South Asia, APL Logistics</li>
+            <li><strong>Ashish Bhatt</strong> - Managing Director, APL Logistics VASCOR Automotive Pvt. Ltd.</li>
+          </ul>
 					</p>
 				</div>
 				<div className='w-full h-full bg-red-50'>
