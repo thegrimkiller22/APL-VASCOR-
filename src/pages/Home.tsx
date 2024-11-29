@@ -82,8 +82,14 @@ const Home = () => {
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
-						src=''
+						src='https://images.pexels.com/photos/28374669/pexels-photo-28374669/free-photo-of-an-aerial-view-of-a-parking-lot-with-cars.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 						alt=''
+						style={{
+							width: '100%', // Full width of the container
+							height: '782px', // Maintain aspect ratio
+							objectFit: 'cover', // Cover the area while maintaining aspect ratio
+							borderRadius: '8px', // Rounded corners for the image
+						  }}
 					/>
 				</div>
 			</div>
@@ -105,8 +111,14 @@ const Home = () => {
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
-						src=''
+						src='https://imgs.search.brave.com/YFflr_PhcRPN_NU1HvPRodN2NhQk9ihf-OZkrr_k4CM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/OTQ0MTI1NzQ2NDMt/ZmYxMWIwYTVjMWMz/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjAuMyZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1URjhmR3h2/WjJsemRHbGpjM3hs/Ym53d2ZId3dmSHg4/TUE9PQ.jpeg'
 						alt=''
+						style={{
+							width: '100%', // Full width of the container
+							height: '782px', // Maintain aspect ratio
+							objectFit: 'cover', // Cover the area while maintaining aspect ratio
+							borderRadius: '8px', // Rounded corners for the image
+						  }}
 					/>
 				</div>
 			</div>
@@ -130,8 +142,14 @@ const Home = () => {
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
-						src=''
+						src='https://imgs.search.brave.com/p1gic0E_QS4yZENmcgoHPUJqJs6nc6NwZ8y0zdbaMlk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOS8w/OC8xNS8xNy81Ni9w/cm9kdWN0aW9uLTQ0/MDg1NzNfNjQwLmpw/Zw'
 						alt=''
+						style={{
+							width: '100%', // Full width of the container
+							height: '782px', // Maintain aspect ratio
+							objectFit: 'cover', // Cover the area while maintaining aspect ratio
+							borderRadius: '8px', // Rounded corners for the image
+						  }}
 					/>
 				</div>
 			</div>
