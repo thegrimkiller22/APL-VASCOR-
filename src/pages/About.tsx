@@ -166,7 +166,7 @@ const About: React.FC = () => {
 						src=''
 						alt=''
 					/>  
-				</div>  
+				</div>   
 			</div>
       <div className='grid grid-cols-2 w-full h-dvh'>
 				<div className='px-6 py-16 order-2'>
