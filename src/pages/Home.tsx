@@ -78,7 +78,9 @@ const Home = () => {
 								<li key={index}>{el}</li>
 							))}
 						</ul>
-					</p>
+					</p><Button type='button' className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
+					<a href ="About-us">About Us</a>
+				</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
@@ -108,6 +110,9 @@ const Home = () => {
 						can customize the logistics solutions for you because we have our owned asset i.e. Specially designed Rails & Core partner carrier network(Road Transporters) as an extension to our owned asset which enables us to deliver the
 						capacity you need at right place, at the right time & for the right price.
 					</p>
+					<Button type='button' className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
+					Explore Rail Transport
+				</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
@@ -139,6 +144,9 @@ const Home = () => {
               ))}
             </ul>
 					</p>
+					<Button type='button' className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
+					<a href='inbound'></a>Inbound Logistics
+				</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
