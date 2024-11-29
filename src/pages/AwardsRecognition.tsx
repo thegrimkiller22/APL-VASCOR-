@@ -1,6 +1,6 @@
 const AwardsRecognition = () => {
   return (
-    <section className="bg-blue-50 py-20 px-6 md:px-16">
+    <section className="bg-white py-20 px-6 md:px-16">
       <div className="container mx-auto text-center">
         {/* Header Section */}
         <h1 className="text-5xl font-extrabold text-blue-900 mb-6 leading-tight md:text-6xl">
