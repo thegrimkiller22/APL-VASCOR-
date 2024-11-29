@@ -145,7 +145,7 @@ const Home = () => {
             </ul>
 					</p>
 					<Button type='button' className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
-					<a href='inbound'></a>Inbound Logistics
+					<a href='inbound'>Inbound Logistics</a>
 				</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>

@@ -28,15 +28,16 @@ const routes = [
 		name: 'Gallery',
 	},
 	{
-		path: '/contact-us',
-		element: <ContactUs />,
-		name: 'Contact Us',
-	},
-	{
 		path: '/inbound',
 		element: <Inbound />,
 		name: 'Inbound ',
 	},
+	{
+		path: '/contact-us',
+		element: <ContactUs />,
+		name: 'Contact Us',
+	},
+	
 ];
 
 export default routes;
