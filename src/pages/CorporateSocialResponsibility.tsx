@@ -21,10 +21,10 @@ const CorporateSocialResponsibility: React.FC = () => {
   };
 
   return (
-    <section className="py-16 px-6 md:px-16 mt-8 bg-gradient-to-r from-blue-50 to-blue-100">
+    <section className="py-16 px-6 md:px-16 mt-8 bg-white">
       <div className="container mx-auto flex flex-col md:flex-row">
         {/* Sidebar Navbar */}
-        <nav className="w-full md:w-1/4 bg-white p-4 shadow-lg rounded-lg mb-8 md:mb-0 md:mr-6">
+        <nav className="w-full md:w-1/4 bg-white p-4   mb-8 md:mb-0 md:mr-6">
           <ul className="space-y-4">
             {['csrPolicy', 'csrMember', 'csrProject'].map((section) => (
               <li key={section}>
@@ -50,14 +50,7 @@ const CorporateSocialResponsibility: React.FC = () => {
                 <p>
                   This CSR Policy encompasses AUTOLINX philosophy for social responsibilities and lays down the guidelines and mechanism for undertaking projects, programs, and activities towards such responsibilities.
                 </p>
-                <Button onClick={handleReadMoreToggle} className="bg-white text-blue-600">
-                  {showMore ? 'Read Less' : 'Read More'}
-                  </Button>
-                {showMore && (
-                  <>
-                    <h3 className="font-semibold">II. VISION STATEMENT AND OBJECTIVE</h3>
-                    <ol className="list-decimal list-inside space-y-2">
-                      <li>
+                <li>
                         The CSR Policy sets out AUTOLINX commitment towards ensuring that our activities extend beyond business and include initiatives and endeavors for the benefit and development of the community and society. The CSR Policy lays down guidelines for undertaking programs geared towards social welfare activities or initiatives.
                       </li>
                       <li>
@@ -66,6 +59,14 @@ const CorporateSocialResponsibility: React.FC = () => {
                       <li>
                         This CSR Policy has been framed in accordance with the applicable provisions of the Companies Act 2013 and the rules issued thereunder.
                       </li>
+                <Button onClick={handleReadMoreToggle} className="bg-white text-blue-600">
+                  {showMore ? 'Read Less' : 'Read More'}
+                  </Button>
+                {showMore && (
+                  <>
+                    <h3 className="font-semibold">II. VISION STATEMENT AND OBJECTIVE</h3>
+                    <ol className="list-decimal list-inside space-y-2">
+                      
                       <li>
                         The objective of this CSR Policy is to:
                         <ul className="list-disc list-inside ml-4 space-y-2">

@@ -6,11 +6,11 @@ import { SlidercarouselImages } from '@/lib/constants';
 
 const AnimatedBrandSlider: React.FC = () => {
   return (
-    <div className="overflow-hidden bg-white py-4"> {/* Changed bg-gray-800 to bg-white */}
+    <div className="overflow-hidden bg-white py-4">
       <motion.div
         className="flex"
         animate={{
-          x: [0, -50 * SlidercarouselImages.length],
+          x: [0, -100 * SlidercarouselImages.length], // Adjust to move the full width of the images
         }}
         transition={{
           x: {

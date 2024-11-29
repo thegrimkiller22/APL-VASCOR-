@@ -4,7 +4,7 @@ const About: React.FC = () => {
 
 
   return (
-    <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-16 px-6 md:px-16">
+    <section className="bg-white py-16 px-6 md:px-16">
       
       
       <div className='grid grid-cols-2 w-full h-dvh'>
