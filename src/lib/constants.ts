@@ -97,3 +97,18 @@ export const profiles: Profile[] = [
 			"Mike is responsible for the strategic development, growth, and profitability of the automotive logistics business worldwide.  Mike has a dual role where he oversees the Automotive Logistics activity at the parent company, APL Logistics, and serves as VASCOR's CCO and Board Member.  Mike has been with the organization since 2001 and has over 40 years of experience in premium transportation, automotive logistics, and global supply chain services.  Mike is a graduate of Auburn University Business School, Ohio State University's Logistics and Supply Chain Services program, and an executive learning program provided by the Rizzo School of Business at the University of North Carolina, Chapel Hill.",
 	},
 ];
+
+export const industries_we_serve: { image: string; title: string }[] = [
+	{
+		image: '/assets/car.svg',
+		title: 'Automotive',
+	},
+	{
+		image: '/assets/industry.svg',
+		title: 'Manufacturing',
+	},
+	{
+		image: '/assets/warehouse.svg',
+		title: 'Food & Beverage/Retail Distribution',
+	},
+];

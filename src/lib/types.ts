@@ -8,3 +8,10 @@ export type Profile = {
 export type ProfileCardProps = {
 	card_details: Profile;
 };
+
+export type SectionProps = {
+	title: string;
+	heading: string;
+	children: React.ReactNode;
+	className?: string | undefined;
+};
