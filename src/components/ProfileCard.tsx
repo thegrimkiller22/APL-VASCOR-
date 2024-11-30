@@ -4,7 +4,7 @@ import { ProfileCardProps } from '@/lib/types';
 const ProfileCard = ({ card_details }: ProfileCardProps) => {
 	const { name, image, description, designation } = card_details;
 	return (
-		<Card className='flex flex-col h-full shadow-none border-0'>
+		<Card className='flex flex-col h-full shadow-none border-0 bg-inherit'>
 			<CardHeader className='p-6 flex flex-col items-center text-center gap-2'>
 				<div className='relative size-72 mb-6'>
 					<img
