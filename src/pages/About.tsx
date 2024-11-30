@@ -1,7 +1,47 @@
+import ProfileCard from '@/components/ProfileCard';
+import { profiles } from '@/lib/constants';
+import { Link } from 'react-router-dom';
+interface NavItem {
+	title: string;
+	href: string;
+}
+
+const navItems: NavItem[] = [
+	{ title: 'Who We Are', href: '#who-we-are' },
+	{ title: 'Industries We Serve', href: '#industries' },
+	{ title: 'VASCOR Leadership', href: '#leadership' },
+	{ title: 'Associations', href: '#associations' },
+	{ title: 'Awards', href: '#awards' },
+];
 const About: React.FC = () => {
 	return (
-		<section className='w-full min-h-dvh relative'>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perferendis quam assumenda tempora totam velit, vitae quas! Non, porro aliquid.</p>
+		<section className='w-full min-h-dvh relative mt-20 '>
+			<div
+				style={{ background: 'url("https://www.vascorlogistics.com/build/assets/files/page_editor_header_images/iStock-893188474.jpg") no-repeat center/cover' }}
+				className='relative w-full h-[70vh] flex items-end justify-center pb-4 mt-20'>
+				<h3 className='font-bold text-5xl text-white'>About VASCOR</h3>
+			</div>
+
+			<nav className='w-full px-4 py-6 bg-white my-4'>
+				<div className='container mx-auto'>
+					<ul className='flex flex-wrap items-center justify-center gap-2 md:gap-4'>
+						{navItems.map((item, index) => (
+							<li
+								key={item.href}
+								className='flex items-center'>
+								<Link
+									to={item.href}
+									className='text-blue-800 hover:text-blue-900 transition-colors text-sm md:text-base lg:text-lg font-medium'>
+									{item.title}
+								</Link>
+								{index < navItems.length - 1 && <span className='text-blue-600 mx-2 md:mx-4'>|</span>}
+							</li>
+						))}
+					</ul>
+				</div>
+			</nav>
+
+			
 
 			<div className='container mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
 				{profiles.map(profile => (

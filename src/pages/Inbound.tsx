@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, CardTitle } from '@/components/ui/card';
-import { cn } from '@/lib/utils'; // Import ShadCN's utility for className conditional joining 
 import { services } from '@/lib/constants';
 const Inbound: React.FC = () => {
   
@@ -35,15 +34,13 @@ const Inbound: React.FC = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className={cn(
-                'shadow-lg transition-all transform hover:scale-105 mb-4 p-4 hover:bg-blue-500 hover:text-white transition-colors duration-300  '
-              )}
+              className='shadow-lg transition-all transform hover:scale-105 mb-4 p-4 hover:bg-blue-500 group'
             >
               {/* Apply hover effect to the entire card */}
-              <CardHeader className="flex-1 hover:text-white">
+              <CardHeader className="flex-1 group-hover:text-white">
                 <CardTitle className="text-lg font-bold">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent className="text-gray-700 text-sm flex-1 hover:text-white">
+              <CardContent className="text-gray-700 text-sm flex-1 group-hover:text-white">
                 <p>{service.description}</p>
               </CardContent>
             </Card>
