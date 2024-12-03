@@ -1,5 +1,5 @@
 import { Profile } from '@/lib/types';
-
+import { Box, ChevronRight, LayoutDashboard, Phone, Truck, Warehouse } from 'lucide-react';
 export const Logo = 'APL VASCOR.';
 
 export const carouselImages = [
@@ -112,3 +112,35 @@ export const industries_we_serve: { image: string; title: string }[] = [
 		title: 'Food & Beverage/Retail Distribution',
 	},
 ];
+export const itSystems = [
+    {
+      title: "Transportation Management System (TMS)",
+      description: "VASCOR designed the TMS for the just-in-time supply chain to provide the best service to our customers with real-time exception notifications sent to all stakeholders.",
+      icon: Truck,
+    },
+    {
+      title: "Mobile App",
+      description: "Our mobile app provides real-time tracking of all shipments to allow full route visibility.",
+      icon: Phone,
+    },
+    {
+      title: "Dashboard/Portal",
+      description: "The web-based dashboard is customized per customer requirements to show your supply chain's most relevant information and data.",
+      icon: LayoutDashboard,
+    },
+    {
+      title: "Order Management System (OMS)",
+      description: "OMS provides part-level visibility and route-level detail for a full visual of the supply chain from start to finish with route optimization from suppliers to the plant.",
+      icon: Box,
+    },
+    {
+      title: "Trailer Utilization Optimizer",
+      description: "Maximize trailer space and routing efficiency",
+      icon: Truck,
+    },
+    {
+      title: "Yard Management System",
+      description: "Manage your yard operations effectively",
+      icon: Warehouse,
+    },
+  ];
