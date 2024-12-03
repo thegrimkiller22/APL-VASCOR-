@@ -79,13 +79,15 @@ const About: React.FC = () => {
 
 					<div className='lg:sticky lg:top-8'>
 						<div className='aspect-video w-full flex justify-center'>
-							<iframe
-								className='w-full max-w-[500px] aspect-video rounded-lg shadow-lg'
-								src='https://youtu.be/N4qoQmSFuIA?si=rjke3u9McBiBkFCy'
-								title='Why should VASCOR be your 3PL provider?'
-								allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-								allowFullScreen
-							/>
+						<iframe
+  className="w-full max-w-[500px] aspect-video rounded-lg shadow-lg"
+  src="https://www.youtube.com/embed/N4qoQmSFuIA?autoplay=1&mute=1"
+  title="Why should VASCOR be your 3PL provider?"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+/>
+
+
 						</div>
 					</div>
 				</div>
