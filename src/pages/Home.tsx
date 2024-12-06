@@ -100,18 +100,24 @@ const Home = () => {
 						{' '}
 						<span className='w-8 h-0.5 bg-primary inline-block' /> What We Do
 					</h3>
-					<h2 className='text-5xl font-bold mb-4'>Rail Transport</h2>
-					<p className='text-gray-500 text-lg leading-relaxed '>
-						Our extensive network in India is now augmented by AutoLinxSM, a unique and innovative rail-based solution that ensures reliable, damage-free and cost-efficient distribution of finished vehicles and motorcycles across the
-						country and beyond. From a strategic standpoint in OEMs Supplychain, APL Logistics VASCOR Automotive have accelerated the automobile sector's adoption of rail for finished vehicle distribution within India. For OEMs operating
-						in India, APL Logistics VASCOR Automotive has introduced AutoLinxSM, our unique and innovative rail-based solution that ensures reliable, damage-free and cost-efficient distribution of finished vehicles across the country. We
-						can customize the logistics solutions for you because we have our owned asset i.e. Specially designed Rails & Core partner carrier network(Road Transporters) as an extension to our owned asset which enables us to deliver the
-						capacity you need at right place, at the right time & for the right price.
-					</p>
+					<h2 className='text-5xl font-bold mb-4'>Corporate Social Responsibility (CSR)</h2>
+    <p className='text-gray-500 text-lg leading-relaxed'>
+      At APL Logistics VASCOR Automotive, we believe in contributing to the well-being of the communities in which we operate. Our Corporate Social Responsibility (CSR) initiatives are designed to create a positive impact on society, the environment, and the economy. 
+      We strive to integrate sustainable practices into every aspect of our operations, from reducing our carbon footprint to investing in local communities.
+      <br />
+      Our CSR efforts focus on several key areas:
+      <ul className='list-disc list-inside'>
+        <li><strong>Environmental Sustainability:</strong> Implementing eco-friendly practices across our supply chain to reduce environmental impact.</li>
+        <li><strong>Community Engagement:</strong> Supporting education, healthcare, and economic development in the regions where we operate.</li>
+        <li><strong>Employee Welfare:</strong> Creating a safe, inclusive, and nurturing work environment for all our employees.</li>
+        <li><strong>Ethical Business Practices:</strong> Upholding high standards of transparency, integrity, and accountability in our business operations.</li>
+      </ul>
+      
+    </p>
 					<Button
 						type='button'
 						className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
-						Explore Rail Transport
+						<a href='corporate-social-responsibility'>Corporate Social Responsibility</a>
 					</Button>
 				</div>
 				<div className='w-full h-full bg-red-50'>
