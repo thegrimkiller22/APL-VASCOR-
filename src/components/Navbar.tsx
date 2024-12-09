@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
 									key={route.name}
 									to={route.path}
 									onClick={() => setIsMenuOpen(false)}
-									className={`group/item relative text-base px-3 py-2 rounded-md transition-transform duration-200 transform hover:-translate-y-[3px] text-gray-800 dark:text-gray-200 font-semibold ${
+									className={`group/item relative text-base px-3 py-2 rounded-md transition-transform duration-200 transform hover:-translate-y-[3px] text-gray-800 dark:text-gray-200 font-semibold text-nowrap ${
 										isActive(route.path) ? 'text-primary -translate-y-[3px]' : ''
 									}`}>
 									{route.name}
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
 					<div className='flex gap-4 items-center justify-between'>
 						<a
 							href='tel:1800123827267'
-							className='border bg-primary py-2 px-3 rounded-full text-white font-semibold hidden md:inline-block'>
+							className='border bg-primary py-2 px-3 rounded-full text-white font-semibold hidden md:inline-block text-nowrap'>
 							1800 123 827267
 						</a>
 						<Link
