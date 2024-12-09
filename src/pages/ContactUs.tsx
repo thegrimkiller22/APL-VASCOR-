@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ContactUs: React.FC = () => {
   return (
@@ -6,23 +6,39 @@ const ContactUs: React.FC = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Contact Details */}
         <div className="max-w-md mx-auto bg-white p-8 rounded-xl shadow-lg mb-8 md:mb-0 md:mr-8">
-          <h1 className="text-4xl font-bold text-blue-900 text-center mb-8">Contact Us</h1>
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Our Address</h2>
+          <h1 className="text-4xl font-bold text-blue-900 text-center mb-8">
+            Contact Us
+          </h1>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+            Our Address
+          </h2>
           <p className="text-lg text-gray-700 mb-4">
-            Plot No 19, 4th Floor, Sewa Tower,<br />
-            Near Maruti Udyog Material Gate,<br />
-            Udyog Vihar, Phase IV,<br />
-            Sector 18, Gurgaon,<br />
+            Plot No 19, 4th Floor, Sewa Tower,
+            <br />
+            Near Maruti Udyog Material Gate,
+            <br />
+            Udyog Vihar, Phase IV,
+            <br />
+            Sector 18, Gurgaon,
+            <br />
             Haryana 122015, India
           </p>
           <p className="text-lg text-gray-700 mb-4">
-            <strong>Contact No.:</strong> <a href="tel:1800123827267" className="text-blue-600 hover:underline">1800 123 827267</a>
+            <strong>Contact No.:</strong>{" "}
+            <a
+              href="tel:1800123827267"
+              className="text-blue-600 hover:underline"
+            >
+              1800 123 827267
+            </a>
           </p>
         </div>
 
         {/* Responsive Map */}
         <div className="flex-1 w-full">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4 text-center">Location</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
+            Location
+          </h2>
           <div className="w-full h-96 relative overflow-hidden rounded-lg shadow-lg">
             <iframe
               title="Company Location"
