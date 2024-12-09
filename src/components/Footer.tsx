@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           {/* Logo Section */}
           <div className="w-full lg:w-1/3 flex justify-center lg:justify-start mb-6 lg:mb-0">
             <img 
-              src="https://www.vascorlogistics.com/build/assets/files/id/1" 
+              src="aplmedia\APLL_Vascor Logo_landscape.jpg" 
               alt="VASCOR Logistics" 
               className="max-w-full h-auto"
             />

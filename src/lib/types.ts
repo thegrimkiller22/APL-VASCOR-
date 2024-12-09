@@ -14,4 +14,5 @@ export type SectionProps = {
 	heading: string;
 	children: React.ReactNode;
 	className?: string | undefined;
+	id?: string | undefined;
 };

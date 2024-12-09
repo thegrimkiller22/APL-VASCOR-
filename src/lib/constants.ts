@@ -1,11 +1,17 @@
 import { Profile } from '@/lib/types';
-
+import { Box,  LayoutDashboard, Phone, Truck, Warehouse } from 'lucide-react';
 export const Logo = 'APL VASCOR.';
 
 export const carouselImages = [
-	'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=800',
-	'https://images.pexels.com/photos/1267324/pexels-photo-1267324.jpeg?auto=compress&cs=tinysrgb&w=800',
-	'https://images.pexels.com/photos/1427541/pexels-photo-1427541.jpeg?auto=compress&cs=tinysrgb&w=800',
+	'aplmedia/_MG_9708.jpg',
+	'aplmedia/_MG_9722.jpg',
+	'aplmedia/3_March.png',
+	'aplmedia/DJI_0256.jpg',
+	'aplmedia/DJI_0285.jpg',
+	'aplmedia/IMG_6497.jpg',
+	'aplmedia/IMG_6499.jpg',
+
+	
 ];
 
 export const deliveries = [
@@ -112,3 +118,35 @@ export const industries_we_serve: { image: string; title: string }[] = [
 		title: 'Food & Beverage/Retail Distribution',
 	},
 ];
+export const itSystems = [
+    {
+      title: "Transportation Management System (TMS)",
+      description: "VASCOR designed the TMS for the just-in-time supply chain to provide the best service to our customers with real-time exception notifications sent to all stakeholders.",
+      icon: Truck,
+    },
+    {
+      title: "Mobile App",
+      description: "Our mobile app provides real-time tracking of all shipments to allow full route visibility.",
+      icon: Phone,
+    },
+    {
+      title: "Dashboard/Portal",
+      description: "The web-based dashboard is customized per customer requirements to show your supply chain's most relevant information and data.",
+      icon: LayoutDashboard,
+    },
+    {
+      title: "Order Management System (OMS)",
+      description: "OMS provides part-level visibility and route-level detail for a full visual of the supply chain from start to finish with route optimization from suppliers to the plant.",
+      icon: Box,
+    },
+    {
+      title: "Trailer Utilization Optimizer",
+      description: "Maximize trailer space and routing efficiency",
+      icon: Truck,
+    },
+    {
+      title: "Yard Management System",
+      description: "Manage your yard operations effectively",
+      icon: Warehouse,
+    },
+  ];
