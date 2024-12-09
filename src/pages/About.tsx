@@ -22,14 +22,14 @@ const About: React.FC = () => {
     <section className="w-full min-h-screen mt-20 bg-gray-50">
       {/* Header Section */}
       <div
-        className="relative w-full h-[70vh] flex items-end justify-center pb-4 bg-cover bg-center mt-20"
-        style={{
-          backgroundImage:
-            'url("https://www.vascorlogistics.com/build/assets/files/page_editor_header_images/iStock-893188474.jpg")',
-        }}
-      >
-        <h3 className="font-bold text-5xl text-white">About VASCOR</h3>
-      </div>
+    className="relative w-full h-[70vh] flex items-end justify-center pb-4 bg-cover bg-center mt-20"
+    style={{
+      backgroundImage: 'url("aplmedia/KMB07464.JPG")',
+    }}
+>
+    {/* Header Text */}
+    <h3 className="font-bold text-5xl text-[#1e40af]">About VASCOR</h3>
+</div>
 
       {/* Navigation */}
       <nav className="w-full px-4 py-6 mt-4 mb-12">

@@ -42,7 +42,7 @@ const Inbound: React.FC = () => {
       <div className="container mx-auto">
         {/* Hero Image */}
         <div
-          style={{ background: 'url("https://www.vascorlogistics.com/build/assets/files/page_editor_header_images/181.jpg") no-repeat center/cover' }}
+          style={{ background: 'url("aplmedia/IMG_6497.jpg") no-repeat center/cover' }}
           className='relative w-full h-[70vh] flex items-end justify-center pb-4 mt-20'>
           <h3 className='font-bold text-5xl text-white'>Inbound Logistics</h3>
         </div>
@@ -102,7 +102,7 @@ const Inbound: React.FC = () => {
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <img
-                  src="https://www.vascorlogistics.com/assets/files/Page-Editor-Files/IMG_InboundIT-cropped.jpg"
+                  src="aplmedia/DJI_0285.jpg"
                   alt="Inbound IT Systems"
                   className="w-full h-auto object-cover"
                 />

@@ -40,46 +40,40 @@ const CorporateSocialResponsibility: React.FC = () => {
             This CSR Policy has been framed in accordance with the Companies Act 2013 and its associated rules.
           </li>
         </ul>
-        <Button onClick={handleReadMoreToggle} className="bg-white text-blue-600">
-          {showMore ? 'Read Less' : 'Read More'}
-        </Button>
-        {showMore && (
-          <>
-            <h3 className="font-semibold">II. VISION STATEMENT AND OBJECTIVE</h3>
-            <ol className="list-decimal list-inside space-y-2">
-              <li>
-                The objective of this CSR Policy is to:
-                <ul className="list-disc list-inside ml-4 space-y-2">
-                  <li>Outline projects, programs, and activities to be undertaken by AUTOLINX;</li>
-                  <li>Specify execution modalities;</li>
-                  <li>Monitor the process for these initiatives;</li>
-                  <li>Enhance quality of life and economic well-being for local communities;</li>
-                  <li>Reinforce AUTOLINX's socially responsible image through CSR activities.</li>
-                </ul>
-              </li>
-            </ol>
-            <h3 className="font-semibold">III. CSR COMMITTEE</h3>
-            <p>
-              The CSR Committee, formed under the Act's provisions, comprises two Directors and the Company Secretary. Its responsibilities include recommending CSR policies, reviewing expenditures, and monitoring CSR initiatives.
-            </p>
-            <h3 className="font-semibold">IV. CSR CELL</h3>
-            <p>
-              The CSR Cell assists with the implementation and impact assessment of CSR initiatives. Members:
-            </p>
+        <h3 className="font-semibold">II. VISION STATEMENT AND OBJECTIVE</h3>
+        <ol className="list-decimal list-inside space-y-2">
+          <li>
+            The objective of this CSR Policy is to:
             <ul className="list-disc list-inside ml-4 space-y-2">
-              <li>Mr. Umesh Sahai Bhanot</li>
-              <li>Mr. Ashish Mohan Chandra Bhatt</li>
+              <li>Outline projects, programs, and activities to be undertaken by AUTOLINX;</li>
+              <li>Specify execution modalities;</li>
+              <li>Monitor the process for these initiatives;</li>
+              <li>Enhance quality of life and economic well-being for local communities;</li>
+              <li>Reinforce AUTOLINX's socially responsible image through CSR activities.</li>
             </ul>
-            <p>Roles include identifying CSR activities, determining execution modalities, and ensuring timely implementation.</p>
-            <h3 className="font-semibold">V. CSR EXPENDITURE AND ALLOCATION</h3>
-            <p>
-              CSR expenditure is in compliance with the Companies Act 2013. The Board may amend this policy to ensure compliance and alignment with statutory requirements.
-            </p>
-          </>
-        )}
+          </li>
+        </ol>
+        <h3 className="font-semibold">III. CSR COMMITTEE</h3>
+        <p>
+          The CSR Committee, formed under the Act's provisions, comprises two Directors and the Company Secretary. Its responsibilities include recommending CSR policies, reviewing expenditures, and monitoring CSR initiatives.
+        </p>
+        <h3 className="font-semibold">IV. CSR CELL</h3>
+        <p>
+          The CSR Cell assists with the implementation and impact assessment of CSR initiatives. Members:
+        </p>
+        <ul className="list-disc list-inside ml-4 space-y-2">
+          <li>Mr. Umesh Sahai Bhanot</li>
+          <li>Mr. Ashish Mohan Chandra Bhatt</li>
+        </ul>
+        <p>Roles include identifying CSR activities, determining execution modalities, and ensuring timely implementation.</p>
+        <h3 className="font-semibold">V. CSR EXPENDITURE AND ALLOCATION</h3>
+        <p>
+          CSR expenditure is in compliance with the Companies Act 2013. The Board may amend this policy to ensure compliance and alignment with statutory requirements.
+        </p>
       </CardContent>
     </Card>
   );
+  
 
   const renderMemberContent = () => (
     <Card>

@@ -1,52 +1,49 @@
 import { Button } from '@/components/ui/button';
-import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
+
 import { Input } from '@/components/ui/input';
 import { carouselImages, deliveries, vehicleDistributionCenters } from '@/lib/constants';
-import Autoplay from 'embla-carousel-autoplay';
-import Fade from 'embla-carousel-fade';
-import { useRef } from 'react';
-
 const HeroSection = () => {
-	const plugin = useRef([Autoplay({ delay: 4000 }), Fade()]);
 	return (
-		<div className='relative flex items-center justify-start w-full h-dvh overflow-hidden'>
-			<div className='absolute inset-0 z-10'>
-				<Carousel
-					opts={{ align: 'start', loop: true, containScroll: false }}
-					plugins={plugin.current}
-					className='w-full h-full opacity-75 '>
-					<CarouselContent>
-						{carouselImages.map((img, index) => (
-							<CarouselItem
-								key={index}
-								className=''>
-								<img
-									src={img}
-									alt=''
-									className='object-cover object-center w-full h-full'
-								/>
-							</CarouselItem>
-						))}
-					</CarouselContent>
-				</Carousel>
-			</div>
+		<div className="relative flex items-center justify-start w-full h-dvh overflow-hidden">
+			{/* Video Background */}
+			<video
+				className="absolute inset-0 w-full h-full object-cover"
+				src="aplmedia/AutoLinx animation video.mp4"
+				autoPlay
+				loop
+				muted
+			></video>
 
-			{/* Header */}
-			<div className='w-1/2 z-20 ml-20 leading-snug'>
-				<h1 className='font-extrabold text-6xl leading-tight '>
+			{/* Header Content */}
+			<div className="relative z-20 w-1/2 ml-20 leading-snug mt-32 md:mt-40 lg:mt-48">
+				<h1 className="font-extrabold text-6xl leading-tight text-black">
 					APL Logistics Vascor <br /> Automotive Pvt Ltd.
 				</h1>
-				<p className='font-semibold text-xl my-4'>Unique challenges, unique solutions.</p>
-				<div className='w-3/4 flex items-center justify-start gap-2 mt-4'>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				
+				<p className="font-semibold text-xl my-4 text-black">
+					Unique challenges, unique solutions.
+				</p>
+				<div className="w-3/4 flex items-center justify-start gap-2 mt-4">
 					<Input
-						type='text'
-						placeholder='Track your VIN'
+						type="text"
+						placeholder="Track your VIN"
 						tabIndex={2}
-						className='py-6 px-4 text-lg text-inherit bg-white/90 border-0'
+						className="py-6 px-4 text-lg bg-white/90 border-0"
 					/>
-					<Button
-						type='button'
-						className='py-6 px-8'>
+					<Button type="button" className="py-6 px-8">
 						Submit
 					</Button>
 				</div>
@@ -87,7 +84,7 @@ const Home = () => {
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
-						src='https://images.pexels.com/photos/28374669/pexels-photo-28374669/free-photo-of-an-aerial-view-of-a-parking-lot-with-cars.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+						src='aplmedia/DJI_0246.jpg'
 						alt=''
 						className='w-full h-full object-center object-cover '
 					/>
@@ -122,7 +119,7 @@ const Home = () => {
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
-						src='https://imgs.search.brave.com/YFflr_PhcRPN_NU1HvPRodN2NhQk9ihf-OZkrr_k4CM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/OTQ0MTI1NzQ2NDMt/ZmYxMWIwYTVjMWMz/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjAuMyZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1URjhmR3h2/WjJsemRHbGpjM3hs/Ym53d2ZId3dmSHg4/TUE9PQ.jpeg'
+						src='aplmedia/_MG_9708.jpg'
 						alt=''
 						className='w-full h-full object-center object-cover'
 					/>
@@ -148,7 +145,7 @@ const Home = () => {
 				</div>
 				<div className='w-full h-full bg-red-50'>
 					<img
-						src='https://imgs.search.brave.com/p1gic0E_QS4yZENmcgoHPUJqJs6nc6NwZ8y0zdbaMlk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOS8w/OC8xNS8xNy81Ni9w/cm9kdWN0aW9uLTQ0/MDg1NzNfNjQwLmpw/Zw'
+						src='aplmedia/DJI_0285.jpg'
 						alt=''
 						className='w-full h-full object-center object-cover'
 					/>

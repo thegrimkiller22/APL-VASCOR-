@@ -3,9 +3,15 @@ import { Box, ChevronRight, LayoutDashboard, Phone, Truck, Warehouse } from 'luc
 export const Logo = 'APL VASCOR.';
 
 export const carouselImages = [
-	'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=800',
-	'https://images.pexels.com/photos/1267324/pexels-photo-1267324.jpeg?auto=compress&cs=tinysrgb&w=800',
-	'https://images.pexels.com/photos/1427541/pexels-photo-1427541.jpeg?auto=compress&cs=tinysrgb&w=800',
+	'aplmedia/_MG_9708.jpg',
+	'aplmedia/_MG_9722.jpg',
+	'aplmedia/3_March.png',
+	'aplmedia/DJI_0256.jpg',
+	'aplmedia/DJI_0285.jpg',
+	'aplmedia/IMG_6497.jpg',
+	'aplmedia/IMG_6499.jpg',
+
+	
 ];
 
 export const deliveries = [
