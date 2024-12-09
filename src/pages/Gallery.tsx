@@ -22,15 +22,16 @@ const GalleryItem: React.FC<{ imageUrl: string; altText: string }> = ({
     <img
       src={imageUrl}
       alt={altText}
-      className="w-full h-50 object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
+      loading="lazy"
+      className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-105"
     />
   </div>
 );
 
 const Gallery: React.FC = () => {
   return (
-    <div className="gallery-container py-16 px-4 md:px-16 mt-8">
-      <h1 className="text-center text-4xl font-bold mb-8">Gallery</h1>
+    <div className="gallery-container py-16 px-4 md:px-16 mt-40">
+      <h1 className="text-center text-4xl font-bold mb-16">Gallery</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {galleryImages.map((image, index) => (
           <GalleryItem

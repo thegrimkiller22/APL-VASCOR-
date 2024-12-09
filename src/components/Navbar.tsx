@@ -1,5 +1,4 @@
 // src/components/Navbar.tsx
-import { Logo } from '@/lib/constants';
 import routes from '@/routes';
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom'; // Ensure you are using Link from react-router-dom
@@ -37,7 +36,7 @@ const Navbar: React.FC = () => {
 		<>
 			<nav className={`fixed z-50 top-0 left-0 w-full md:pt-2 bg-white transition-transform duration-300 dark:bg-black dark:text-white ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
 				<div className='relative z-40 mx-auto flex gap-2 justify-between items-center px-2 py-4 md:px-8'>
-					<div className='flex items-center justify-center gap-2 text-lg md:text-2xl font-bold p-1'>
+					<div className='w-1/5 flex items-center justify-center gap-2 text-lg md:text-2xl font-bold p-1'>
 						{isMenuOpen ? (
 							<CloseIcon
 								className='cursor-pointer p-1 size-8 md:hidden '
@@ -53,7 +52,10 @@ const Navbar: React.FC = () => {
 						<Link
 							to='/'
 							className='text-nowrap'>
-							{Logo.toUpperCase()}
+							<img
+								src='../../aplmedia/APLL_Vascor Logo_landscape.jpg'
+								alt='APL VASCOR'
+							/>
 						</Link>
 					</div>
 

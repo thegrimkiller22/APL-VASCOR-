@@ -169,32 +169,31 @@ const CorporateSocialResponsibility: React.FC = () => {
   };
 
   return (
-    <section className="py-16 px-6 md:px-16 mt-8 bg-white">
-      <div className="container mx-auto flex flex-col md:flex-row">
-        {/* Sidebar Navbar */}
-        <nav className="w-full md:w-1/4 bg-white p-4 mb-8 md:mb-0 md:mr-6">
-          <ul className="space-y-4">
-            {["csrPolicy", "csrMember", "csrProject"].map((section) => (
-              <li key={section}>
-                <Button
-                  variant={activeSection === section ? "default" : "ghost"}
-                  className="w-full justify-start"
-                  onClick={() => handleSectionChange(section)}
-                >
-                  {section.replace("csr", "CSR ").toUpperCase()}
-                </Button>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        {/* Section Content */}
-        <div className="flex-1 space-y-8">
-          {activeSection === "csrPolicy" && renderPolicyContent()}
-          {activeSection === "csrMember" && renderMemberContent()}
-          {activeSection === "csrProject" && renderProjectContent()}
-        </div>
-      </div>
-    </section>
+		<section className='py-16 px-6 md:px-16 mt-16 bg-white'>
+			<div className='container mx-auto flex flex-col md:flex-row'>
+				{/* Sidebar Navbar */}
+				<nav className='w-full md:w-1/4 bg-white p-4 mb-8 md:mb-0 md:mr-6'>
+					<ul className='space-y-4'>
+						{['csrPolicy', 'csrMember', 'csrProject'].map(section => (
+							<li key={section}>
+								<Button
+									variant={activeSection === section ? 'default' : 'ghost'}
+                  className={`w-full justify-start bg-[#0069AA]/80 hover:bg-[#0069AA] text-white hover:text-white py-6 px-4 ${activeSection == section && 'bg-[#0069AA]'}`}
+									onClick={() => handleSectionChange(section)}>
+									{section.replace('csr', 'CSR ').toUpperCase()}
+								</Button>
+							</li>
+						))}
+					</ul>
+				</nav>
+				{/* Section Content */}
+				<div className='flex-1 space-y-8 min-h-dvh'>
+					{activeSection === 'csrPolicy' && renderPolicyContent()}
+					{activeSection === 'csrMember' && renderMemberContent()}
+					{activeSection === 'csrProject' && renderProjectContent()}
+				</div>
+			</div>
+		</section>
   );
 };
 

@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 
 import { Input } from "@/components/ui/input";
 import {
-  carouselImages,
   deliveries,
   vehicleDistributionCenters,
 } from "@/lib/constants";
@@ -20,7 +19,7 @@ const HeroSection = () => {
 
       {/* Header Content */}
       <div className="relative z-20 w-1/2 ml-20 leading-snug mt-32 md:mt-40 lg:mt-48">
-        <h1 className="font-extrabold text-6xl leading-tight text-black">
+        {/* <h1 className="font-extrabold text-6xl leading-tight text-black">
           APL Logistics Vascor <br /> Automotive Pvt Ltd.
         </h1>
         <br />
@@ -39,7 +38,7 @@ const HeroSection = () => {
 
         <p className="font-semibold text-xl my-4 text-black">
           Unique challenges, unique solutions.
-        </p>
+        </p> */}
         <div className="w-3/4 flex items-center justify-start gap-2 mt-4">
           <Input
             type="text"
@@ -159,7 +158,6 @@ const Home = () => {
         </div>
       </div>
 
-<<<<<<< HEAD
 			<div className='grid grid-cols-2 w-full h-dvh'>
 				<div className='px-6 py-16'>
 					<h3 className='text-primary font-bold inline-flex items-center justify-start gap-4 text-lg'>
@@ -192,40 +190,6 @@ const Home = () => {
 			</div>
 		</section>
 	);
-=======
-      <div className="grid grid-cols-2 w-full h-dvh">
-        <div className="px-6 py-16">
-          <h3 className="text-primary font-bold inline-flex items-center justify-start gap-4 text-lg">
-            {" "}
-            <span className="w-8 h-0.5 bg-primary inline-block" /> What We Do
-          </h3>
-          <h2 className="text-5xl font-bold mb-4">
-            Vehicle Distribution Centers
-          </h2>
-          <p className="text-gray-500 text-lg leading-relaxed ">
-            "In addition to our core rail transportation network for finished
-            vehicle distribution, APL Logistics VASCOR Automotive will operate a
-            network of vehicle distribution centres and yards.Sites are
-            strategically located adjacent to the rail terminals. These Centers
-            provide various value-added services, including :
-            <ul className="list-disc list-inside">
-              {vehicleDistributionCenters.map((el, index) => (
-                <li key={index}> {el} </li>
-              ))}
-            </ul>
-          </p>
-        </div>
-        <div className="w-full h-full bg-red-50">
-          <img
-            src="aplmedia/DJI_0285.jpg"
-            alt=""
-            className="w-full h-full object-center object-cover"
-          />
-        </div>
-      </div>
-    </section>
-  );
->>>>>>> bf4fd6f870cf754c8c38aac31ea4d0bee5ea19d6
 };
 
 export default Home;
