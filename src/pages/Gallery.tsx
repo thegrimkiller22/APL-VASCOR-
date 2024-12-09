@@ -1,20 +1,23 @@
-import React from 'react';
+import React from "react";
 
 // Example array of image URLs
 const galleryImages = [
-  'aplmedia/KMB07557.jpg',
-  'aplmedia/KMB07464.JPG',
-  'aplmedia/IMG18_copy1.jpg',
-  'aplmedia/KMB07557.jpg',
-  'aplmedia/IMG_7334.JPG',
-  'aplmedia/IMG_6499.jpg',
-  'aplmedia/IMG_6497.jpg',
-  'aplmedia/DJI_0285.jpg',
+  "aplmedia/KMB07557.jpg",
+  "aplmedia/KMB07464.JPG",
+  "aplmedia/IMG18_copy1.jpg",
+  "aplmedia/KMB07557.jpg",
+  "aplmedia/IMG_7334.JPG",
+  "aplmedia/IMG_6499.jpg",
+  "aplmedia/IMG_6497.jpg",
+  "aplmedia/DJI_0285.jpg",
   // Add more image URLs as needed
 ];
 
 // GalleryItem component for each image
-const GalleryItem: React.FC<{ imageUrl: string; altText: string }> = ({ imageUrl, altText }) => (
+const GalleryItem: React.FC<{ imageUrl: string; altText: string }> = ({
+  imageUrl,
+  altText,
+}) => (
   <div className="overflow-hidden rounded-lg  hover:shadow-2xl transition-shadow duration-300">
     <img
       src={imageUrl}

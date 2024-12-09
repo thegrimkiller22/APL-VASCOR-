@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
+import React, { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
 
 const MultiColumnForm: React.FC = () => {
   const [roles, setRoles] = useState<{ broker: boolean; carrier: boolean }>({
@@ -11,27 +11,29 @@ const MultiColumnForm: React.FC = () => {
   });
 
   const [formData, setFormData] = useState({
-    mcNumber: '',
-    dotNumber: '',
-    companyName: '',
-    preferredLanesFrom: '',
-    preferredLanesTo: '',
-    address: '',
-    city: '',
-    state: '',
-    zipCode: '',
-    phone: '',
-    name: '',
-    title: '',
-    email: '',
-    comments: '',
+    mcNumber: "",
+    dotNumber: "",
+    companyName: "",
+    preferredLanesFrom: "",
+    preferredLanesTo: "",
+    address: "",
+    city: "",
+    state: "",
+    zipCode: "",
+    phone: "",
+    name: "",
+    title: "",
+    email: "",
+    comments: "",
   });
 
-  const handleRoleChange = (role: 'broker' | 'carrier') => {
+  const handleRoleChange = (role: "broker" | "carrier") => {
     setRoles((prev) => ({ ...prev, [role]: !prev[role] }));
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -83,7 +85,7 @@ const MultiColumnForm: React.FC = () => {
                   id="broker"
                   name="broker"
                   checked={roles.broker}
-                  onChange={() => handleRoleChange('broker')}
+                  onChange={() => handleRoleChange("broker")}
                   className="mr-2"
                 />
                 <Label htmlFor="broker">Broker</Label>
@@ -94,7 +96,7 @@ const MultiColumnForm: React.FC = () => {
                   id="carrier"
                   name="carrier"
                   checked={roles.carrier}
-                  onChange={() => handleRoleChange('carrier')}
+                  onChange={() => handleRoleChange("carrier")}
                   className="mr-2"
                 />
                 <Label htmlFor="carrier">Carrier</Label>
@@ -264,7 +266,13 @@ const MultiColumnForm: React.FC = () => {
         </div>
 
         {/* Submit Button */}
-        <Button type="submit" className="w-full mt-6 bg-blue-500 text-white hover:bg-blue-600" disabled={!formData.mcNumber || !formData.dotNumber || !formData.companyName}>
+        <Button
+          type="submit"
+          className="w-full mt-6 bg-blue-500 text-white hover:bg-blue-600"
+          disabled={
+            !formData.mcNumber || !formData.dotNumber || !formData.companyName
+          }
+        >
           Submit
         </Button>
       </form>

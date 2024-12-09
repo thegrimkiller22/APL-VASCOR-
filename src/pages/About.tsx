@@ -1,8 +1,8 @@
-import ProfileCard from '@/components/ProfileCard';
-import Section from '@/components/Section';
-import { Button } from '@/components/ui/button';
-import { industries_we_serve, profiles } from '@/lib/constants';
-import { Link } from 'react-router-dom';
+import ProfileCard from "@/components/ProfileCard";
+import Section from "@/components/Section";
+import { Button } from "@/components/ui/button";
+import { industries_we_serve, profiles } from "@/lib/constants";
+import { Link } from "react-router-dom";
 
 interface NavItem {
   title: string;
@@ -10,11 +10,11 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { title: 'Who We Are', href: '#who-we-are' },
-  { title: 'Industries We Serve', href: '#industries' },
-  { title: 'VASCOR Leadership', href: '#leadership' },
-  { title: 'Associations', href: '#associations' },
-  { title: 'Awards', href: '#awards' },
+  { title: "Who We Are", href: "#who-we-are" },
+  { title: "Industries We Serve", href: "#industries" },
+  { title: "VASCOR Leadership", href: "#leadership" },
+  { title: "Associations", href: "#associations" },
+  { title: "Awards", href: "#awards" },
 ];
 
 const About: React.FC = () => {
@@ -22,14 +22,14 @@ const About: React.FC = () => {
     <section className="w-full min-h-screen mt-20 bg-gray-50">
       {/* Header Section */}
       <div
-    className="relative w-full h-[70vh] flex items-end justify-center pb-4 bg-cover bg-center mt-20"
-    style={{
-      backgroundImage: 'url("aplmedia/KMB07464.JPG")',
-    }}
->
-    {/* Header Text */}
-    <h3 className="font-bold text-5xl text-[#1e40af]">About VASCOR</h3>
-</div>
+        className="relative w-full h-[70vh] flex items-end justify-center pb-4 bg-cover bg-center mt-20"
+        style={{
+          backgroundImage: 'url("aplmedia/KMB07464.JPG")',
+        }}
+      >
+        {/* Header Text */}
+        <h3 className="font-bold text-5xl text-[#1e40af]">About VASCOR</h3>
+      </div>
 
       {/* Navigation */}
       <nav className="w-full px-4 py-6 mt-4 mb-12">
@@ -58,21 +58,31 @@ const About: React.FC = () => {
           {/* Text Content */}
           <div className="space-y-6">
             <p className="text-gray-600 leading-relaxed">
-              A privately held joint venture between APL Logistics® and Fujitrans Corporation®, VASCOR is infused with expertise in providing the best service and value in global supply chain solutions. It's in our name as VASCOR stands for{' '}
-              <span className="font-semibold">V</span>alue{' '}
-              <span className="font-semibold">A</span>dded{' '}
-              <span className="font-semibold">S</span>ervice{' '}
+              A privately held joint venture between APL Logistics® and
+              Fujitrans Corporation®, VASCOR is infused with expertise in
+              providing the best service and value in global supply chain
+              solutions. It's in our name as VASCOR stands for{" "}
+              <span className="font-semibold">V</span>alue{" "}
+              <span className="font-semibold">A</span>dded{" "}
+              <span className="font-semibold">S</span>ervice{" "}
               <span className="font-semibold">COR</span>poration!
             </p>
             <p className="text-gray-600 leading-relaxed">
-              VASCOR started in 1987 to serve the automotive sector in the heart of horse country, Georgetown, KY. Today, our expertise extends to industries like manufacturing, food and beverage, and retail distribution.
+              VASCOR started in 1987 to serve the automotive sector in the heart
+              of horse country, Georgetown, KY. Today, our expertise extends to
+              industries like manufacturing, food and beverage, and retail
+              distribution.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              We provide custom solutions across the supply chain, including inbound transportation, finished vehicle logistics, IT services, and business intelligence. Our ISO 9001:2015 certified Quality Management System ensures our solutions
-              meet high standards.
+              We provide custom solutions across the supply chain, including
+              inbound transportation, finished vehicle logistics, IT services,
+              and business intelligence. Our ISO 9001:2015 certified Quality
+              Management System ensures our solutions meet high standards.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Combining expertise, integrity, and ethical standards, we deliver total confidence in our solutions to help clients reduce costs and optimize their supply chain.
+              Combining expertise, integrity, and ethical standards, we deliver
+              total confidence in our solutions to help clients reduce costs and
+              optimize their supply chain.
             </p>
           </div>
 
@@ -94,7 +104,8 @@ const About: React.FC = () => {
         <div className="mt-12">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <h2 className="text-2xl font-bold text-gray-800 max-w-3xl">
-              Contact us to find the right customized solution for your business!
+              Contact us to find the right customized solution for your
+              business!
             </h2>
             <Button
               size="lg"
@@ -114,10 +125,7 @@ const About: React.FC = () => {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {industries_we_serve.map((industry) => (
-              <div
-                key={industry.title}
-                className="p-8 bg-white shadow-lg"
-              >
+              <div key={industry.title} className="p-8 bg-white shadow-lg">
                 <div className="text-center">
                   <img
                     src={industry.image}
