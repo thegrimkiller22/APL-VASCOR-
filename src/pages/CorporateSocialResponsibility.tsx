@@ -8,17 +8,7 @@ import {
 } from "@/components/ui/card";
 
 const CorporateSocialResponsibility: React.FC = () => {
-  const [activeSection, setActiveSection] = useState<string>('csrPolicy');
-  const [showMore, setShowMore] = useState<boolean>(false);
-
-  const handleSectionToggle = (section: string) => {
-    setActiveSection(section);
-    setShowMore(false);
-  };
-
-  const handleReadMoreToggle = () => {
-    setShowMore(!showMore);
-  };
+  const [activeSection, ] = useState<string>('csrPolicy');
 
   const renderPolicyContent = () => (
     <Card>
@@ -165,7 +155,7 @@ const CorporateSocialResponsibility: React.FC = () => {
                 <Button
                   variant={activeSection === section ? 'default' : 'ghost'}
                   className="w-full justify-start"
-                  onClick={() => handleSectionToggle(section)}
+                  
                 >
                   {section.replace('csr', 'CSR ').toUpperCase()}
                 </Button>

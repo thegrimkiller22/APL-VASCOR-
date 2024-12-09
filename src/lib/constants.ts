@@ -1,5 +1,5 @@
 import { Profile } from '@/lib/types';
-import { Box, ChevronRight, LayoutDashboard, Phone, Truck, Warehouse } from 'lucide-react';
+import { Box,  LayoutDashboard, Phone, Truck, Warehouse } from 'lucide-react';
 export const Logo = 'APL VASCOR.';
 
 export const carouselImages = [
