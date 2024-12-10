@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
 							to='/'
 							className='text-nowrap'>
 							<img
-								src='../../aplmedia/APLL_Vascor Logo_landscape.jpg'
+								src='src/assets/APLL_Vascor Logo_landscape.jpg'
 								alt='APL VASCOR'
 							/>
 						</Link>

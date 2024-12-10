@@ -24,7 +24,7 @@ const About: React.FC = () => {
       <div
         className="relative w-full h-[70vh] flex items-end justify-center pb-4 bg-cover bg-center mt-20"
         style={{
-          backgroundImage: 'url("aplmedia/KMB07464.JPG")',
+          backgroundImage: 'url("src/assets/KMB07464.JPG")',
         }}
       >
         {/* Header Text */}

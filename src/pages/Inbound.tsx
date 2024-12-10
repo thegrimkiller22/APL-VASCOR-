@@ -54,7 +54,7 @@ const Inbound: React.FC = () => {
         {/* Hero Image */}
         <div
           style={{
-            background: 'url("aplmedia/IMG_6497.jpg") no-repeat center/cover',
+            background: 'url("src/assets/IMG_6497.jpg") no-repeat center/cover',
           }}
           className="relative w-full h-[70vh] flex items-end justify-center pb-4 mt-20"
         >
@@ -130,7 +130,7 @@ const Inbound: React.FC = () => {
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <img
-                  src="aplmedia/DJI_0285.jpg"
+                  src="src/assets/DJI_0285.jpg"
                   alt="Inbound IT Systems"
                   className="w-full h-auto object-cover"
                   loading="lazy"

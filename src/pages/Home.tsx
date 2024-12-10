@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Video Background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="aplmedia/AutoLinx animation video.mp4"
+        src="src/assets/AutoLinx animation video.mp4"
         autoPlay
         loop
         muted
@@ -89,7 +89,7 @@ const Home = () => {
         </div>
         <div className="w-full h-full bg-red-50">
           <img
-            src="aplmedia/DJI_0246.jpg"
+            src="src/assets/DJI_0246.jpg"
             alt=""
             className="w-full h-full object-center object-cover "
             loading="lazy"
@@ -149,7 +149,7 @@ const Home = () => {
         </div>
         <div className="w-full h-full bg-red-50">
           <img
-            src="aplmedia/_MG_9708.jpg"
+            src="src/assets/_MG_9708.jpg"
             alt=""
             className="w-full h-full object-center object-cover"
             loading="lazy"
@@ -187,7 +187,7 @@ const Home = () => {
         </div>
         <div className="w-full h-full bg-red-50">
           <img
-            src="aplmedia/DJI_0285.jpg"
+            src="src/assets/DJI_0285.jpg"
             alt=""
             className="w-full h-full object-center object-cover"
             loading="lazy"
