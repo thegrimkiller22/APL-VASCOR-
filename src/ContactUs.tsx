@@ -26,7 +26,7 @@ const ContactUs: React.FC = () => {
           <p className="text-lg text-gray-700 mb-4">
             <strong>Contact No.:</strong>{" "}
             <a
-              href="tel:1800123827267"
+              href="tel:1800 123 827267"
               className="text-blue-600 hover:underline"
             >
               1800 123 827267

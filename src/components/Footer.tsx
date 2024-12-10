@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-bold mb-4 border-b-2 border-primary pb-2">Contact Us</h3>
             <div className="flex items-center mb-2">
               <Phone className="mr-2 text-primary" />
-              <span>+1 (502) 570-2020</span>
+              <span>1800 123 827267</span>
             </div>
             <div className="flex items-center">
               <Mail className="mr-2 text-primary" />

@@ -70,14 +70,14 @@ export const services = [
 	},
 ];
 export const SlidercarouselImages = [
-	'https://www.vascorlogistics.com/build/assets/files/Photo_Gallery/lg_GM_Brandmark_2021_blue_300x300.jpg',
-	'https://vascorlogistics.com/build/assets/files/Photo_Gallery/lg_marcotran.jpg',
+	'https://imgs.search.brave.com/vQnexJ3qUOpVyaLP0o4REoEQXCUvxTnD5r503cboUDc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FybG9nb3Mub3Jn/L2xvZ28vU3V6dWtp/LWxvZ28tNjQweDQy/NS5qcGc',
+	'https://imgs.search.brave.com/FfjqR1VE8ZEkXTAcdQ8maAPdSrjAI0XdhgXxBKwb3No/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FkLzg1/LzZlL2FkODU2ZTQx/N2EwN2FmYTI0YmY3/YjViODI1ZTIyNGFl/LmpwZw',
 	'https://www.vascorlogistics.com/build/assets/files/Photo_Gallery/lg_Toyota_logo_2019.png',
-	'https://www.vascorlogistics.com/build/assets/files/Photo_Gallery/lg_Mercedes-Benz-logo-2011-1920x1080.png',
-	'https://www.vascorlogistics.com/build/assets/files/Photo_Gallery/lg_Adient.png',
-	'https://www.vascorlogistics.com/build/assets/files/Photo_Gallery/lg_ShanghaiAutomotiveAssemblyGroup.jpg',
-	'https://www.vascorlogistics.com/build/assets/files/Photo_Gallery/lg_stellantis-logo-cropped.png',
-	'https://www.vascorlogistics.com/build/assets/files/Photo_Gallery/lg_NorfolkSouthern2696x1414.jpg',
+	'https://imgs.search.brave.com/kUZOJvk-H5WOwH8UQxOpoUwDAaz5M9XJH1Ww33aIC1U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FybG9nb3Mub3Jn/L2xvZ28vUmVuYXVs/dC1sb2dvLTIwMTUt/NjQweDU1MC5qcGc',
+	'https://imgs.search.brave.com/Dy9bIJkcRTv8HoVn-dMRpwCRHHxXlP6quYoe9kKDAtM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FyLWJyYW5kLW5h/bWVzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxNS8wOC9s/b2dvLW5pc3Nhbi03/MjB4NDgyLnBuZw',
+	'https://imgs.search.brave.com/Vbs8VpXxA5ALTIci4TEQyeEYJk3PWPqXLfwNcAkWzZU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXN1enVwaGlsLmNv/bS90aGVtZXMvaXN1/enVwaGlsL2Fzc2V0/cy9pbWFnZXMvaXN1/enUtbG9nby1uZXcu/cG5n',
+	'https://imgs.search.brave.com/TOn-vo2ZXXZkdgol7PiSiuoXGTheA90T3CoWPpryO2E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jYXIt/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzA0/L3RhdGEtbG9nbzEt/c2NhbGVkLndlYnA',
+	'https://imgs.search.brave.com/uIEZu5nr_hs1hxA537njRXfLQIqEfZuQJYpm0pZcppk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idWNr/ZXQuZGVhbGVydmVu/b20uY29tLzIwMjMv/MTAvMTczODhfS2lh/X0xvZ28uanBnP2F1/dG89Y29tcHJlc3Ms/Zm9ybWF0Jml4bGli/PXBocC0zLjMuMQ',
 ];
 
 export const profiles: Profile[] = [
