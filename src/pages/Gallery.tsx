@@ -2,14 +2,14 @@ import React from "react";
 
 // Example array of image URLs
 const galleryImages = [
-  "src/assets/KMB07557.jpg",
-  "src/assets/KMB07464.JPG",
-  "src/assets/IMG18_copy1.jpg",
-  "src/assets/KMB07557.jpg",
-  "src/assets/IMG_7334.JPG",
-  "src/assets/IMG_6499.jpg",
-  "src/assets/IMG_6497.jpg",
-  "src/assets/DJI_0285.jpg",
+  "/assets/KMB07557.jpg",
+  "/assets/KMB07464.JPG",
+  "/assets/IMG18_copy1.jpg",
+  "/assets/KMB07557.jpg",
+  "/assets/IMG_7334.JPG",
+  "/assets/IMG_6499.jpg",
+  "/assets/IMG_6497.jpg",
+  "/assets/DJI_0285.jpg",
   // Add more image URLs as needed
 ];
 

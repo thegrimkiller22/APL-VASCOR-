@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { industries_we_serve, profiles } from "@/lib/constants";
 import { Link } from "react-router-dom";
 
+
 interface NavItem {
   title: string;
   href: string;
@@ -24,7 +25,7 @@ const About: React.FC = () => {
       <div
         className="relative w-full h-[70vh] flex items-end justify-center pb-4 bg-cover bg-center mt-20"
         style={{
-          backgroundImage: 'url("src/assets/KMB07464.JPG")',
+          backgroundImage: 'url("/assets/KMB07464.JPG")',
         }}
       >
         {/* Header Text */}

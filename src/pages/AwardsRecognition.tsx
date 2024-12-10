@@ -237,7 +237,7 @@ const AwardsRecognition = () => {
         </div>
         <div className="w-full h-[750px] bg-red-50">
           <img
-            src="src/assets/trophy.png"
+            src="/assets/trophy.png"
             alt="Aerial view of parking lot with cars"
             className="w-full h-full object-cover"
             loading="lazy"

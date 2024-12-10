@@ -2,13 +2,14 @@ import { Button } from "@/components/ui/button";
 
 import { Input } from "@/components/ui/input";
 import { deliveries, vehicleDistributionCenters } from "@/lib/constants";
+
 const HeroSection = () => {
   return (
     <div className="relative flex items-center justify-start w-full h-dvh overflow-hidden">
       {/* Video Background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="src/assets/AutoLinx animation video.mp4"
+        src="/assets/AutoLinx animation video.mp4"
         autoPlay
         loop
         muted
@@ -89,7 +90,7 @@ const Home = () => {
         </div>
         <div className="w-full h-full bg-red-50">
           <img
-            src="src/assets/DJI_0246.jpg"
+            src="/assets/DJI_0246.jpg"
             alt=""
             className="w-full h-full object-center object-cover "
             loading="lazy"
@@ -149,7 +150,7 @@ const Home = () => {
         </div>
         <div className="w-full h-full bg-red-50">
           <img
-            src="src/assets/_MG_9708.jpg"
+            src="/assets/_MG_9708.jpg"
             alt=""
             className="w-full h-full object-center object-cover"
             loading="lazy"
@@ -187,7 +188,7 @@ const Home = () => {
         </div>
         <div className="w-full h-full bg-red-50">
           <img
-            src="src/assets/DJI_0285.jpg"
+            src="/assets/DJI_0285.jpg"
             alt=""
             className="w-full h-full object-center object-cover"
             loading="lazy"
