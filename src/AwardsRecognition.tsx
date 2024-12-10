@@ -93,7 +93,7 @@ const AwardsRecognition = () => {
         </div>
         <div className="w-full h-[700px] bg-red-50">
           <img
-            src="http://www.apllvascor.com/img/ISO.jpg"
+            src="/assets/awards.png"
             alt="ISO Certification"
             className="w-full h-full object-contain"
             loading="lazy"
