@@ -3,7 +3,7 @@ import { Routes, Route, Outlet } from "react-router-dom"; //
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import routes from "@/routes";
-import { Home } from "./pages";
+import { Home } from ".";
 
 const App: React.FC = () => {
   return (

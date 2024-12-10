@@ -1,5 +1,5 @@
 import { SquareArrowOutUpRight } from "lucide-react";
-import caseStudy from "../assets/case study.png";
+
 const AwardsRecognition = () => {
   return (
     <section className="bg-white py-20 mt-48 px-6 md:px-16">
@@ -133,7 +133,7 @@ const AwardsRecognition = () => {
         </div>
         <div className="w-full h-[750px] bg-red-50">
           <img
-            src={caseStudy}
+            src="/assets/case study.png"
             alt=""
             className="w-full h-full object-center object-cover"
             loading="lazy"

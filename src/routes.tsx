@@ -1,5 +1,5 @@
-import { About, AwardsRecognition, ContactUs, CorporateSocialResponsibility, Gallery, Carrier } from '@/pages';
-import Inbound from './pages/Inbound';
+import { About, AwardsRecognition, ContactUs, CorporateSocialResponsibility, Gallery, Carrier } from '@/index';
+import Inbound from './Inbound';
 
 const routes = [
 	{
