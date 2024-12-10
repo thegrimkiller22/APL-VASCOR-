@@ -48,7 +48,7 @@ const MultiColumnForm: React.FC = () => {
     <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg ">
       <h2 className="text-2xl font-semibold mb-6">Form</h2>
       <form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           {/* MC Number */}
           <div className="mb-4">
             <Label htmlFor="mcNumber">MC Number *</Label>

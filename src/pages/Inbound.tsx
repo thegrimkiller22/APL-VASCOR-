@@ -133,6 +133,7 @@ const Inbound: React.FC = () => {
                   src="aplmedia/DJI_0285.jpg"
                   alt="Inbound IT Systems"
                   className="w-full h-auto object-cover"
+                  loading="lazy"
                 />
               </CardContent>
             </Card>

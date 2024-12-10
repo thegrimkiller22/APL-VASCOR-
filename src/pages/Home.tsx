@@ -1,10 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 import { Input } from "@/components/ui/input";
-import {
-  deliveries,
-  vehicleDistributionCenters,
-} from "@/lib/constants";
+import { deliveries, vehicleDistributionCenters } from "@/lib/constants";
 const HeroSection = () => {
   return (
     <div className="relative flex items-center justify-start w-full h-dvh overflow-hidden">
@@ -95,6 +92,7 @@ const Home = () => {
             src="aplmedia/DJI_0246.jpg"
             alt=""
             className="w-full h-full object-center object-cover "
+            loading="lazy"
           />
         </div>
       </div>
@@ -154,42 +152,50 @@ const Home = () => {
             src="aplmedia/_MG_9708.jpg"
             alt=""
             className="w-full h-full object-center object-cover"
+            loading="lazy"
           />
         </div>
       </div>
 
-			<div className='grid grid-cols-2 w-full h-dvh'>
-				<div className='px-6 py-16'>
-					<h3 className='text-primary font-bold inline-flex items-center justify-start gap-4 text-lg'>
-						{' '}
-						<span className='w-8 h-0.5 bg-primary inline-block' /> What We Do
-					</h3>
-					<h2 className='text-5xl font-bold mb-4'>Vehicle Distribution Centers</h2>
-					<p className='text-gray-500 text-lg leading-relaxed '>
-						"In addition to our core rail transportation network for finished vehicle distribution, APL Logistics VASCOR Automotive will operate a network of vehicle distribution centres and yards.Sites are strategically located adjacent
-						to the rail terminals. These Centers provide various value-added services, including :
-						<ul className='list-disc list-inside'>
-							{vehicleDistributionCenters.map((el, index) => (
-								<li key={index}> {el} </li>
-							))}
-						</ul>
-					</p>
-					<Button
-						type='button'
-						className='mt-4 py-2 px-4 bg-blue-500 text-white rounded'>
-						<a href='inbound'>Inbound Logistics</a>
-					</Button>
-				</div>
-				<div className='w-full h-full bg-red-50'>
-					<img
-						src='aplmedia/DJI_0285.jpg'
-						alt=''
-						className='w-full h-full object-center object-cover'
-					/>
-				</div>
-			</div>
-		</section>
-	);
+      <div className="grid grid-cols-2 w-full h-dvh">
+        <div className="px-6 py-16">
+          <h3 className="text-primary font-bold inline-flex items-center justify-start gap-4 text-lg">
+            {" "}
+            <span className="w-8 h-0.5 bg-primary inline-block" /> What We Do
+          </h3>
+          <h2 className="text-5xl font-bold mb-4">
+            Vehicle Distribution Centers
+          </h2>
+          <p className="text-gray-500 text-lg leading-relaxed ">
+            "In addition to our core rail transportation network for finished
+            vehicle distribution, APL Logistics VASCOR Automotive will operate a
+            network of vehicle distribution centres and yards.Sites are
+            strategically located adjacent to the rail terminals. These Centers
+            provide various value-added services, including :
+            <ul className="list-disc list-inside">
+              {vehicleDistributionCenters.map((el, index) => (
+                <li key={index}> {el} </li>
+              ))}
+            </ul>
+          </p>
+          <Button
+            type="button"
+            className="mt-4 py-2 px-4 bg-blue-500 text-white rounded"
+          >
+            <a href="inbound">Inbound Logistics</a>
+          </Button>
+        </div>
+        <div className="w-full h-full bg-red-50">
+          <img
+            src="aplmedia/DJI_0285.jpg"
+            alt=""
+            className="w-full h-full object-center object-cover"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Home;
