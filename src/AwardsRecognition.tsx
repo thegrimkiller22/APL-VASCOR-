@@ -14,7 +14,7 @@ const AwardsRecognition = () => {
             <li className="inline-flex gap-2 items-start justify-start">
               APL Logistics VASCOR Automotive Pvt Ltd now ISO 9001 certified
               <a
-                href="http://www.apllvascor.com/img/ISO.jpg"
+                href="/assets/awards.png"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-800"
