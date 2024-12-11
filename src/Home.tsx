@@ -5,7 +5,7 @@ import { deliveries, vehicleDistributionCenters } from "@/lib/constants";
 
 const HeroSection = () => {
   return (
-    <div className="relative flex items-center justify-start w-full h-dvh overflow-hidden">
+    <div className="mt-20 relative flex items-center justify-start w-full h-dvh overflow-hidden">
       {/* Video Background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
