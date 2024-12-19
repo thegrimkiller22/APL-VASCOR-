@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { industries_we_serve, profiles } from "@/lib/constants";
 import { Link } from "react-router-dom";
 
-
 interface NavItem {
   title: string;
   href: string;
@@ -29,7 +28,7 @@ const About: React.FC = () => {
         }}
       >
         {/* Header Text */}
-        <h3 className="font-bold text-5xl text-[#1e40af]">About VASCOR</h3>
+        <h3 className="font-bold text-3xl md:text-5xl text-[#1e40af]">About VASCOR</h3>
       </div>
 
       {/* Navigation */}
@@ -57,12 +56,12 @@ const About: React.FC = () => {
       <Section title="Trusted Experience" heading="Who We Are" id="who-we-are">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Text Content */}
-          <div className="space-y-6">
+          <div className="space-y-6 ">
             <p className="text-gray-600 leading-relaxed">
-              A privately held joint venture between APL Logistics® and
-              Fujitrans Corporation®, VASCOR is infused with expertise in
-              providing the best service and value in global supply chain
-              solutions. It's in our name as VASCOR stands for{" "}
+              A privately held joint venture between APL Logistics® and Fujitrans
+              Corporation®, VASCOR is infused with expertise in providing the best
+              service and value in global supply chain solutions. It's in our name
+              as VASCOR stands for{" "}
               <span className="font-semibold">V</span>alue{" "}
               <span className="font-semibold">A</span>dded{" "}
               <span className="font-semibold">S</span>ervice{" "}
@@ -105,8 +104,7 @@ const About: React.FC = () => {
         <div className="mt-12">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <h2 className="text-2xl font-bold text-gray-800 max-w-3xl">
-              Contact us to find the right customized solution for your
-              business!
+              Contact us to find the right customized solution for your business!
             </h2>
             <Button
               size="lg"
@@ -130,7 +128,7 @@ const About: React.FC = () => {
                 key={industry.title}
                 className="p-8 bg-white shadow-lg grid place-items-center h-96 rounded-xl"
               >
-                <div className="">
+                <div className="text-center">
                   <img
                     src={industry.image}
                     alt={industry.title}
@@ -162,7 +160,7 @@ const About: React.FC = () => {
           </p>
           <Link
             to="/contact-us"
-            className="border-2 py-6 px-14 rounded-full text-base font-semibold uppercase -ml-24 hover:-translate-y-2 transition-transform duration-300"
+            className="border-2 py-6 px-14 rounded-full text-base font-semibold uppercase hover:-translate-y-2 transition-transform duration-300"
           >
             Contact Us
           </Link>

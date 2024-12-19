@@ -38,12 +38,12 @@ const Inbound: React.FC = () => {
     },
     {
       title: "Trailer Utilization Optimizer",
-      description: "Maximize trailer space and routing efficiency",
+      description: "Maximize trailer space and routing efficiency.",
       icon: Truck,
     },
     {
       title: "Yard Management System",
-      description: "Manage your yard operations effectively",
+      description: "Manage your yard operations effectively.",
       icon: Warehouse,
     },
   ];
@@ -51,38 +51,42 @@ const Inbound: React.FC = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-16">
       <div className="container mx-auto">
-        {/* Hero Image */}
+        {/* Hero Section */}
         <div
+          className="relative w-full h-[70vh] flex items-end justify-center pb-4 mt-20"
           style={{
             background: 'url("/assets/IMG_6497.jpg") no-repeat center/cover',
           }}
-          className="relative w-full h-[70vh] flex items-end justify-center pb-4 mt-20"
         >
-          <h3 className="font-bold text-5xl text-white">Inbound Logistics</h3>
+          <h3 className="font-bold text-3xl md:text-5xl text-white">
+            Inbound Logistics
+          </h3>
         </div>
 
         {/* Services Section */}
-        <h2 className="text-3xl font-semibold text-blue-900 mb-4 text-center">
-          Our Services
-        </h2>
-        <p className="text-xl font-medium text-gray-800 mb-8 text-center">
-          Below are the extensive logistics solutions we provide. Let us know
-          what solution is right for you!
-        </p>
+        <div className="text-center mt-12">
+          <h2 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-4">
+            Our Services
+          </h2>
+          <p className="text-lg md:text-xl font-medium text-gray-800 mb-8">
+            Below are the extensive logistics solutions we provide. Let us know
+            what solution is right for you!
+          </p>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <Card
               key={index}
-              className="shadow-lg transition-all transform hover:scale-105 mb-4 p-4 hover:bg-blue-500 group"
+              className="shadow-lg transition-all transform hover:scale-105 hover:shadow-xl group"
             >
-              <CardHeader className="group-hover:text-white">
+              <CardHeader className="group-hover:text-blue-500">
                 <CardTitle className="text-lg font-bold">
                   {service.title}
                 </CardTitle>
               </CardHeader>
-              <CardContent className="text-gray-700 text-sm group-hover:text-white">
-                <p>{service.description}</p>
+              <CardContent className="text-gray-700 text-sm group-hover:text-blue-500">
+                {service.description}
               </CardContent>
             </Card>
           ))}
@@ -90,9 +94,10 @@ const Inbound: React.FC = () => {
 
         {/* IT Systems Section */}
         <div className="grid lg:grid-cols-2 gap-8 items-start mt-12">
+          {/* IT Systems Details */}
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold mb-4">IT Systems</h2>
-            <p className="text-muted-foreground mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">IT Systems</h2>
+            <p className="text-gray-600 mb-8">
               VASCOR provides multiple tools to produce the best efficiency and
               optimization for your supply chain. Each tool offers
               state-of-the-art functions with information and data to manage the
@@ -114,7 +119,7 @@ const Inbound: React.FC = () => {
                           {item.title}
                           <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </h3>
-                        <p className="text-muted-foreground mt-1">
+                        <p className="text-gray-600 mt-1">
                           {item.description}
                         </p>
                       </div>
